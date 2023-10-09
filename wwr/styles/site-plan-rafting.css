@@ -103,7 +103,7 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #f0ebd8;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -119,11 +119,11 @@ nav a {
   padding: 10px;
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: #748cab ;
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: #748cab;
+  background-color:#748cab
 }
 .sitemap {
   display: grid;
