@@ -39,7 +39,7 @@ header {
 }
 
 nav a:hover {
-    background-color:#748cab;
+    background-color:#f0ebd8;
     color: black;
 }
 
@@ -118,5 +118,13 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
-} 
+}
+
+.card-img {
+    width: 30%;
+}
+
+.mountains {
+    width: 40%;
+}
 
