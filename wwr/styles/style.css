@@ -104,7 +104,6 @@ footer {
     background-color:#748cab;
     color: black;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -125,25 +124,6 @@ footer .social img {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(6, 10fr);
-}
-
-.rivers-grid {
-    display: grid;
-    grid-template-columns: repeat(2fr, 2fr);
-    gap: 20px;
-}
-
-.salmon-river {
-    width: 100%; 
-    height: 100px;
-    grid-column: 1;
-}
-
-.grand-canyon {
-    width: 100%; 
-    height: 100px;
-    grid-column: 1;
-
 }
 
 .card-img-rivers {
@@ -334,5 +314,68 @@ main section img {
     }
     footer {
         margin-top: 25px;
+    }
+}
+
+.rivers-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;  
+    justify-content: center;
+
+}
+
+
+.rivers-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.text-section {
+    
+}
+
+.image-section {
+   width: 100%;
+   display: flex; align-items: center;
+   position:relative;
+}
+
+.rivers-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rivers-title {
+    padding:20px;
+    padding-top: 40px;
+}
+
+.last-img {
+    height: 150px;
+    width: calc(100% - 40px);
+    object-fit: cover;
+}
+
+
+
+.last-container {
+    max-width: 1200px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+
+/* Responsive design for mobile devices */
+@media screen and (max-width: 600px) {
+    .rivers-container {
+        grid-template-columns: 1fr;
     }
 }
