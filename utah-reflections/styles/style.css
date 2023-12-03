@@ -133,8 +133,8 @@ form {
     margin: 0 auto;
     width: 400px;
     /* Form outline */
-    padding: 1em;
-    border: 1px solid #ccc;
+    padding: 10em;
+    border: 10px solid #ccc;
     border-radius: 1em;
   }
   
