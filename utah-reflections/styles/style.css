@@ -12,6 +12,10 @@ nav a {
 
 }
 
+/* font-family: 'Rethink Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Satisfy', cursive; */
+
 nav a:hover {
     background-color:#87bba2;
     color: #55828b;
@@ -20,14 +24,16 @@ nav a:hover {
 body {
     width: 100%;
     background-color: #55828b;
-    font-family: 'Roboto Slab', 'Satisfy', 'Sometype Mono', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     /* justify-content: center;
     align-items: center; */
 }
 
 header {
     background-color:#3b6064;
+    font-family: 'Satisfy', cursive
 }
+
 #image-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
